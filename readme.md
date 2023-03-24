@@ -1,5 +1,5 @@
 ## Logic Error
-```ocaml
+
 
 ```ocaml
 
@@ -19,5 +19,4 @@ let main (p, s : parameter * storage) : return =
    Increment n -> add (n, s)
  | Decrement n -> sub (n, s)
  | Reset         -> 0)
-```
 ```
